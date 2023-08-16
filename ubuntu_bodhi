@@ -1,0 +1,25 @@
+    3  sudo apt update && sudo apt dist-upgrade
+    4  sudo ufw enable
+    5  sudo apt-get install gparted
+   14  sudo apt install python3
+   15  python3 --version
+   16  pip install notebook
+   17  pip install gparted
+   18  sudo apt install gparted
+   19  sudo apt install vlc
+   20  sudo apt install code
+   21  esudo apt-get install wget gpg
+   22  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   23  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   24  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   25  rm -f packages.microsoft.gpg
+   26  sudo apt install apt-transport-https
+   27  sudo apt update
+   28  sudo apt install
+   29  sudo autoremove
+   30  sudo apt autoremove
+   31  sudo apt install code
+   32  sudo apt install stacer
+   33  sudo apt install gnome-shell-extension-arc-menu
+   34  pip install numpy pandas matplotlib seaborn scikit-learn jupyter scipy statsmodels plotly beautifulsoup4 requests nltk gensim xgboost lightgbm tensorflow keras
+   35  sudo apt install grub-customizer
