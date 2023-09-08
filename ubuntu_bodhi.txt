@@ -1,25 +1,29 @@
-    3  sudo apt update && sudo apt dist-upgrade
-    4  sudo ufw enable
-    5  sudo apt-get install gparted
-   14  sudo apt install python3
-   15  python3 --version
-   16  pip install notebook
-   17  pip install gparted
-   18  sudo apt install gparted
-   19  sudo apt install vlc
-   20  sudo apt install code
-   21  esudo apt-get install wget gpg
-   22  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-   23  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
-   24  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-   25  rm -f packages.microsoft.gpg
-   26  sudo apt install apt-transport-https
-   27  sudo apt update
-   28  sudo apt install
-   29  sudo autoremove
-   30  sudo apt autoremove
-   31  sudo apt install code
-   32  sudo apt install stacer
-   33  sudo apt install gnome-shell-extension-arc-menu
-   34  pip install numpy pandas matplotlib seaborn scikit-learn jupyter scipy statsmodels plotly beautifulsoup4 requests nltk gensim xgboost lightgbm tensorflow keras
-   35  sudo apt install grub-customizer
+sudo apt update && sudo apt dist-upgrade
+sudo ufw enable
+sudo apt-get install gparted
+sudo apt install python3
+sudo apt install pip
+pip install notebook
+sudo apt install vlc
+
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+rm -f packages.microsoft.gpg
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install code
+
+
+
+sudo apt-get install stacer
+pip install tensorflow keras google  numpy pandas matplotlib seaborn scikit-learn jupyter scipy statsmodels plotly beautifulsoup4 requests nltk gensim xgboost lightgbm
+sudo apt install git
+
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt install grub-customizer
+
+			sudo dpkg -i peazip_9.3.0.LINUX.GTK2-1_amd64.deb
+			sudo dpkg -i Motrix_1.8.19_amd64.deb
