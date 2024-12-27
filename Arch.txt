@@ -1,0 +1,36 @@
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd .
+rm -rf yay # To delete the yay folder as it isn't necessary anymore
+
+
+sudo pacman -Sy archlinux-keyring
+
+sudo pacman -Sy firefox git flatpak vlc python-pip grub-customizer chromium tor nodejs npm spectacle digikam kate ksnip libreoffice-still
+
+yay -S visual-studio-code-bin
+tor-browser
+
+
+
+python -m venv myenv
+source myenv/bin/activate
+pip install numpy pandas matplotlib seaborn scipy scikit-learn notebook tensorflow xgboost jupyterlab plotly opencv-python nltk dask tqdm
+
+
+sudo pacman -S os-prober
+sudo vim /etc/default/grub
+
+esc to edit
+:w for save
+:qa! for exit
+
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+
+sudo pacman -S --noconfirm jdk17-openjdk && sudo archlinux-java set java-17-openjdk
+
+
+
+
