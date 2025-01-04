@@ -11,6 +11,8 @@ sudo pacman -Sy firefox git flatpak vlc python-pip grub-customizer chromium tor 
 
 yay -S visual-studio-code-bin
 tor-browser
+binance-bin
+
 
 
 
