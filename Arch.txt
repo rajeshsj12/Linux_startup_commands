@@ -35,6 +35,7 @@ sudo pacman -S --noconfirm jdk17-openjdk && sudo archlinux-java set java-17-open
 
 
 clear cache
-sudo pacman -Sc && yay -Sc && sudo pacman -Rns $(pacman -Qtdq) && rm -rf ~/.cache/* && sudo journalctl --vacuum-size=100M
+sudo yay -Scc && sudo yay -Rns $(yay -Qtdq) && rm -rf ~/.cache/* && rm -rf ~/.local/share/* && rmlint /home/$(whoami) && ./rmlint.sh && sudo journalctl --vacuum-size=50M
+
 
 
