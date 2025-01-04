@@ -32,5 +32,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo pacman -S --noconfirm jdk17-openjdk && sudo archlinux-java set java-17-openjdk
 
 
+clear cache
+sudo pacman -Sc && yay -Sc && sudo pacman -Rns $(pacman -Qtdq) && rm -rf ~/.cache/* && sudo journalctl --vacuum-size=100M
 
 
