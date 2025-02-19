@@ -19,6 +19,13 @@ sudo apt install code
 
 
 sudo apt-get install stacer
+
+
+sudo apt install python3.12-venv
+python3 -m venv /home/rajesh/venv
+source /home/rajesh/venv/bin/activate
+pip install package-name
+
 pip install tensorflow keras google  numpy pandas matplotlib seaborn scikit-learn jupyter scipy statsmodels plotly beautifulsoup4 requests nltk gensim xgboost lightgbm
 sudo apt install git
 
