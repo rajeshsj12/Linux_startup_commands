@@ -10,31 +10,40 @@ error_file = "installation_errors.txt"
 libraries = [
     # Web Development
     "django", "flask", "fastapi", "sqlalchemy", "dash", "bokeh", 
-    "aiohttp", "requests", "beautifulsoup4", "wtforms", 
+    "aiohttp", "requests", "beautifulsoup4", "wtforms", "jinja2", 
+    "gunicorn", "uvicorn", "bcrypt", "passlib",
 
     # Data Science & Machine Learning
     "tensorflow", "keras", "google", "numpy", "pandas", "matplotlib", 
     "seaborn", "scikit-learn", "jupyter", "scipy", "statsmodels", 
     "plotly", "nltk", "gensim", "xgboost", "lightgbm", "pycaret", 
     "pyspark", "modin", "dask", "mlflow", "yellowbrick", "optuna", 
-    "imblearn", "catboost", "huggingface-hub", 
+    "imblearn", "catboost", "huggingface-hub", "transformers", "torch", 
+    "pytorch", "pycaret[time_series]", "keras-tuner", "shap",
 
     # NLP
-    "textacy", "flair", "spacy", "sentence-transformers", "pyLDAvis", 
+    "textacy", "flair", "spacy", "sentence-transformers", "pyLDAvis",
 
     # Excel
     "openpyxl", "xlrd", "xlwt", "xlwings", "pyexcel", 
-    "xlsxwriter", "pyexcel-xlsxw", "ezodf", "tablib", "pyxlsb",
+    "xlsxwriter", "pyexcel-xlsxw", "ezodf", "tablib", "pyxlsb", 
+    "xlutils", "odfpy",
 
     # SQL
     "pymysql", "psycopg2", "sqlite3", "pyodbc", "mysql-connector-python", 
-    "alembic", "duckdb", "supersqlite",
+    "alembic", "duckdb", "supersqlite", "sqlalchemy-migrate", 
+    "sqlalchemy-utils",
 
     # Visualization
-    "altair", "folium", "geopandas", "pygal", "holoviews", "ggplot",
+    "altair", "folium", "geopandas", "pygal", "holoviews", "ggplot", 
+    "mplfinance", "basemap", "cartopy",
 
     # Big Data
-    "vaex", "koalas",
+    "vaex", "koalas", "apache-airflow", "luigi", 
+    "kafka-python", "hdfs", "spark-nlp",
+
+    # Development Utilities
+    "pytest-cov", "black", "autopep8", "flake8", "pylint", "mypy",
 
     # Specialized
     "shapely", "opencv-python", "moviepy", "pytesseract", 
