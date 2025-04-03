@@ -46,3 +46,9 @@ powerline-daemon --replace
 
 # 13. System Cleanup
 sudo apt autoremove -y && sudo apt clean
+
+
+Updates in Snap Store
+sudo snap refresh snap-store
+sudo snap refresh
+snap refresh --list
