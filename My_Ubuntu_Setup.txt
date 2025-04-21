@@ -47,6 +47,20 @@ powerline-daemon --replace
 # 13. System Cleanup
 sudo apt autoremove -y && sudo apt clean
 
+# 14. Conda Install
+sudo apt install libgl1-mesa-glx libegl1-mesa libx11-dev libstdc++6 build-essential
+cd ~/Downloads
+bash Anaconda3-<version>-Linux-x86_64.sh
+yes
+yes
+conda config --set auto_activate_base False
+anaconda-navigator
+conda update conda
+conda update anaconda
+uninstal...
+conda install anaconda-clean
+anaconda-clean
+
 Tor install
 cd ~/Downloads && tar -xvf BROWSER_FILE_NAME && cd tor-browser && chmod +x start-tor-browser.desktop && ./start-tor-browser.desktop
 cd ~/Downloads/tor-browser
