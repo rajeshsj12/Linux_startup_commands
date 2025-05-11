@@ -86,10 +86,6 @@ GNOME Extensions:
 sudo apt-get install gnome-browser-connector
 https://extensions.gnome.org/
 
-Numix Icons:
-sudo add-apt-repository ppa:numix/ppa
-sudo apt-get update; sudo apt-get install numix-icon-theme-circle
-
 Papirus Icons:
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt update && sudo apt install papirus-icon-theme
