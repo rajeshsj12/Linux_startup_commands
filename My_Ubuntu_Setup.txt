@@ -68,6 +68,33 @@ cd ~/Downloads/tor-browser
 ./start-tor-browser.desktop --register-app
 
 
+Install Ubuntu Restricted Extras (Media Codecs):
+sudo apt install ubuntu-restricted-extras
+
+
+Install Preload:
+sudo apt install preload
+
+
+
+Improve Laptop Battery:
+sudo apt install tlp tlp-rdw
+Just run the above command and you don’t need to do anything else. It’ll make your laptop battery last longer by implementing some power-saving protocols.
+
+
+GNOME Extensions:
+sudo apt-get install gnome-browser-connector
+https://extensions.gnome.org/
+
+Numix Icons:
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update; sudo apt-get install numix-icon-theme-circle
+
+Papirus Icons:
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt update && sudo apt install papirus-icon-theme
+
+
 Updates in Snap Store
 sudo snap refresh snap-store
 sudo snap refresh
