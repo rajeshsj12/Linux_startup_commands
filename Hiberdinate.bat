@@ -1,2 +1,2 @@
-timeout /t 2 /nobreak
+timeout /t 5 /nobreak
 shutdown /h
